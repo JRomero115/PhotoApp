@@ -1,2 +1,2 @@
-# PhotoApp
+# Photo App
 Web API - Project

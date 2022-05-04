@@ -1,0 +1,67 @@
+.app {
+  display:grid;
+  place-items: center;
+  background-color: floralwhite;
+}
+.app__header{
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-bottom: 3px solid #53bce8;
+  object-fit: contain;
+}
+.app__logo {
+  object-fit: contain;
+  position: absolute;
+  padding-right: 1325px;
+  height: 40px;
+}
+.app__headerImage {
+  object-fit: contain;
+  margin-left: 10px;
+  height: 40px;
+}
+.app__signup {
+  display: flex;
+  flex-direction: column;
+}
+.app__loginContainer{
+  margin-right: 10px;
+}
+.app__messageContainer{
+
+}
+.app__message {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+.app__posts {
+  padding: 20px;
+  width:475px;
+}
+.app__notLogin{
+  text-align: center;
+  margin-bottom: 20px;
+}
+.app__body{
+  display: flex;
+  background-color: #ededed;
+  margin-top: -50px;
+  height: 90vh;
+  width: 90vw;
+  box-shadow: -1px 4px 20px -6px rgba(0, 0, 0, 0.75);
+}
+.rcw-header {
+  background-color: #53bce8;
+}
+
+.rcw-message > .rcw-response {
+  background-color: white;
+  color: black;
+}
